@@ -1,0 +1,46 @@
+.signin-page {
+  min-height: calc(100vh - 160px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--bg) 98%, var(--hover-overlay-light) 2%),
+    var(--bg)
+  );
+}
+
+.signin-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.signin-card h1 {
+  font-size: 1.6rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: var(--card);
+}
+.btn.primary {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: transparent;
+  font-weight: 800;
+}
+
+@media (max-width: 520px) {
+  .signin-card {
+    padding: 18px;
+  }
+}

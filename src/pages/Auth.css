@@ -1,0 +1,45 @@
+/* Shared auth styles for SignIn / Register */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  padding: 24px 12px 48px;
+}
+.auth-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  box-sizing: border-box;
+}
+.auth-card h1 {
+  margin: 0 0 8px 0;
+}
+.auth-card p {
+  margin: 6px 0 12px 0;
+  color: var(--text-secondary);
+}
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+.auth-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 16px;
+    margin: 0 8px;
+  }
+  .auth-actions {
+    flex-direction: column;
+  }
+}

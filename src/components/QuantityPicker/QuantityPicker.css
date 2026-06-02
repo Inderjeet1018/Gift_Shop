@@ -1,0 +1,30 @@
+.qty-picker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 4px;
+  width: fit-content;
+}
+.qty-picker button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text-primary);
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+.qty-picker button:hover {
+  background: rgba(255, 111, 163, 0.1);
+}
+.qty-picker input {
+  width: 40px;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-weight: 600;
+}

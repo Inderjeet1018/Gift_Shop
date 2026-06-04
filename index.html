@@ -4,7 +4,63 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Memories</title>
+    <title>Memories - Gift Shop</title>
+    <style>
+      :root {
+        /* Colors */
+        --bg: #ffffff;
+        --surface: #f5f5f5;
+        --card: #ffffff;
+        --text-primary: #1a1a1a;
+        --text-secondary: #666666;
+        --text-inverse: #ffffff;
+        --muted: #999999;
+        --border: #e0e0e0;
+        --accent: #06b6d4;
+        --accent-hover: #0891b2;
+        --accent-contrast: #ffffff;
+        --gold: #fbbf24;
+        --gold-overlay: rgba(251, 191, 36, 0.05);
+        --hover-overlay: rgba(0, 0, 0, 0.05);
+        --hover-overlay-light: rgba(6, 182, 212, 0.08);
+        
+        /* Shadows */
+        --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+        --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+        --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+        
+        /* Focus Ring */
+        --focus-ring: 0 0 0 3px rgba(6, 182, 212, 0.1);
+        
+        /* Border radius */
+        --radius: 8px;
+        
+        /* Buttons */
+        --btn-padding: 10px 20px;
+        
+        /* Accents */
+        --accent-border-weak: rgba(6, 182, 212, 0.15);
+        --accent-veil-40: rgba(6, 182, 212, 0.4);
+        --accent-shadow-1: rgba(6, 182, 212, 0.15);
+        --accent-shadow-2: rgba(6, 182, 212, 0.25);
+        --danger: #e53e3e;
+      }
+
+      html {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text-primary);
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
